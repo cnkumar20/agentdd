@@ -1,0 +1,329 @@
+task_id,parent_task_id,depends_on_task_id,engineer_id,engineer_name,engineer_title,default_points_per_day,task_summary,is_epic,task_category,story_points,task_status,start_date,due_date,completed_date,actual_days,concurrent_tasks_count,actual_points_per_day,forecasted_points_per_day
+1,,,,,,,Epic 1: Platform Upgrade,True,Documentation,33,In Progress,2023-01-02,2023-01-17,,,,,
+2,,,,,,,Epic 2: Feature Enhancement,True,Frontend,53,In Progress,2023-02-03,2023-03-14,,,,,
+3,,,,,,,Epic 3: Performance Optimization,True,DevOps,37,In Progress,2023-01-13,2023-01-27,,,,,
+4,,,,,,,Epic 4: Security Hardening,True,Backend,34,In Progress,2023-01-18,2023-02-09,,,,,
+5,,,,,,,Epic 5: UX Redesign,True,Documentation,33,In Progress,2023-01-03,2023-02-02,,,,,
+6,,,,,,,Epic 6: Data Migration,True,Documentation,53,In Progress,2023-02-13,2023-03-21,,,,,
+7,,,,,,,Epic 7: Building Observability,True,Design,32,Not Started,2023-02-21,2023-03-16,,,,,
+8,,,,,,,Epic 8: Planning Effective support and alerts,True,Design,43,In Progress,2023-01-30,2023-03-22,,,,,
+9,1.0,,1.0,John,Associate Engineer,0.5,Task 9: Design Module for Platform Upgrade,False,Documentation,1,Completed,2023-01-02,2023-01-04,2023-01-04,2.0,1.0,0.4364555996827747,0.40458147255345595
+10,1.0,9.0,2.0,Jane,Associate Engineer,0.5,Task 10: Migrate Module for Platform Upgrade,False,Documentation,1,In Progress,2023-01-05,2023-01-06,,1.0,1.0,0.5552380799406843,0.5505384979086023
+11,1.0,10.0,3.0,Alex,Professional Engineer,1.0,Task 11: Research API for Platform Upgrade,False,Documentation,1,Completed,2023-01-05,2023-01-06,2023-01-02,1.0,1.0,0.8806363971346804,0.9319086708768277
+12,1.0,10.0,4.0,Sam,Professional Engineer,1.0,Task 12: Review Integration for Platform Upgrade,False,Documentation,1,Completed,2023-01-05,2023-01-06,2023-01-06,1.0,1.0,1.1733483919801588,1.1769584539230888
+13,1.0,,5.0,Taylor,Lead Engineer,1.5,Task 13: Refactor Authentication for Platform Upgrade,False,Documentation,1,Completed,2023-01-02,2023-01-03,2023-01-02,1.0,1.0,1.484039860606106,1.3465052114828797
+14,1.0,11.0,6.0,Morgan,Lead Engineer,1.5,Task 14: Prototype Security for Platform Upgrade,False,Documentation,1,Completed,2023-01-03,2023-01-04,2023-01-02,1.0,1.0,1.3716665373309294,1.471013198155503
+15,1.0,,7.0,Casey,Principal Engineer,2.0,Task 15: Analyze Monitoring for Platform Upgrade,False,Documentation,1,Completed,2023-01-02,2023-01-03,2023-01-02,1.0,1.0,2.292638621662446,2.215571430592415
+16,1.0,,8.0,Jordan,Principal Engineer,2.0,Task 16: Debug Database for Platform Upgrade,False,Documentation,1,Completed,2023-01-02,2023-01-03,2023-01-03,1.0,1.0,2.2394739292145918,2.211234782461643
+17,1.0,,1.0,John,Associate Engineer,0.5,Task 17: Configure Security for Platform Upgrade,False,Documentation,1,Completed,2023-01-02,2023-01-06,2023-01-05,4.0,2.0,0.24689769349676588,0.2663847109511147
+18,1.0,,2.0,Jane,Associate Engineer,0.5,Task 18: Implement User Management for Platform Upgrade,False,Documentation,1,Completed,2023-01-02,2023-01-04,2023-01-04,2.0,1.0,0.46780732568163214,0.43850548570387554
+19,1.0,,3.0,Alex,Professional Engineer,1.0,Task 19: Design Service for Platform Upgrade,False,Documentation,1,Completed,2023-01-02,2023-01-03,2023-01-03,1.0,1.0,0.999009356997451,1.0837873822839093
+20,1.0,16.0,4.0,Sam,Professional Engineer,1.0,Task 20: Deploy Security for Platform Upgrade,False,Documentation,1,In Progress,2023-01-04,2023-01-05,,1.0,1.0,1.1204592349607094,1.1713463083500724
+21,1.0,12.0,5.0,Taylor,Lead Engineer,1.5,Task 21: Deploy Pipeline for Platform Upgrade,False,Documentation,1,Completed,2023-01-09,2023-01-10,2023-01-04,1.0,1.0,1.2473562036332808,1.2729153552089965
+22,1.0,11.0,6.0,Morgan,Lead Engineer,1.5,Task 22: Migrate Workflow for Platform Upgrade,False,Documentation,1,Completed,2023-01-03,2023-01-04,2023-01-02,1.0,1.0,1.5272846384067822,1.4726724305646743
+23,1.0,15.0,7.0,Casey,Principal Engineer,2.0,Task 23: Review Payment for Platform Upgrade,False,Documentation,1,Completed,2023-01-03,2023-01-04,2023-01-03,1.0,1.0,1.8623359242732478,1.7862185115072915
+24,1.0,22.0,8.0,Jordan,Principal Engineer,2.0,Task 24: Research Dashboard for Platform Upgrade,False,Documentation,1,Completed,2023-01-03,2023-01-04,2023-01-04,1.0,2.0,0.9369437859830159,0.9230987687037654
+25,1.0,10.0,1.0,John,Associate Engineer,0.5,Task 25: Research Library for Platform Upgrade,False,Documentation,1,Completed,2023-01-06,2023-01-10,2023-01-05,2.0,1.0,0.4703093967543984,0.42726246329685436
+26,1.0,15.0,2.0,Jane,Associate Engineer,0.5,Task 26: Validate Search for Platform Upgrade,False,Documentation,1,Completed,2023-01-03,2023-01-09,2023-01-09,4.0,2.0,0.23533663339788882,0.2322744568504318
+27,1.0,24.0,3.0,Alex,Professional Engineer,1.0,Task 27: Debug Payment for Platform Upgrade,False,Documentation,1,Completed,2023-01-05,2023-01-06,2023-01-02,1.0,1.0,1.1920109116777116,1.2987922930143325
+28,1.0,13.0,4.0,Sam,Professional Engineer,1.0,Task 28: Document Workflow for Platform Upgrade,False,Documentation,1,Completed,2023-01-03,2023-01-04,2023-01-04,1.0,1.0,1.0684735555574671,1.0484311780742812
+29,1.0,,5.0,Taylor,Lead Engineer,1.5,Task 29: Debug Search for Platform Upgrade,False,Documentation,1,Completed,2023-01-02,2023-01-03,2023-01-02,1.0,2.0,0.7562959134017859,0.7834334153040221
+30,1.0,13.0,6.0,Morgan,Lead Engineer,1.5,Task 30: Migrate Logging for Platform Upgrade,False,Documentation,1,Completed,2023-01-03,2023-01-04,2023-01-03,1.0,1.0,1.2856676810175298,1.3133282820480994
+31,1.0,,7.0,Casey,Principal Engineer,2.0,Task 31: Prototype Authentication for Platform Upgrade,False,Documentation,1,Completed,2023-01-02,2023-01-03,2023-01-03,1.0,2.0,0.7325276276874751,0.6691249241077951
+32,1.0,30.0,8.0,Jordan,Principal Engineer,2.0,Task 32: Debug Notification for Platform Upgrade,False,Documentation,1,Completed,2023-01-04,2023-01-05,2023-01-02,1.0,2.0,0.8503742097156315,0.9268172577272423
+33,1.0,28.0,1.0,John,Associate Engineer,0.5,Task 33: Optimize Analytics for Platform Upgrade,False,Documentation,1,Completed,2023-01-05,2023-01-11,2023-01-06,4.0,2.0,0.2344585345969307,0.24285506009009605
+34,1.0,,2.0,Jane,Associate Engineer,0.5,Task 34: Prototype API for Platform Upgrade,False,Documentation,1,Completed,2023-01-02,2023-01-06,2023-01-06,4.0,2.0,0.21348120406236154,0.2247139220242958
+35,1.0,26.0,3.0,Alex,Professional Engineer,1.0,Task 35: Research Pipeline for Platform Upgrade,False,Documentation,1,Completed,2023-01-10,2023-01-11,2023-01-06,1.0,1.0,0.8550780431314108,0.8323244076226879
+36,1.0,22.0,4.0,Sam,Professional Engineer,1.0,Task 36: Test Monitoring for Platform Upgrade,False,Documentation,1,Completed,2023-01-03,2023-01-05,2023-01-02,2.0,2.0,0.4769209326070857,0.45303784382295703
+37,1.0,,5.0,Taylor,Lead Engineer,1.5,Task 37: Validate Workflow for Platform Upgrade,False,Documentation,1,Completed,2023-01-02,2023-01-05,2023-01-05,3.0,3.0,0.324146134538263,0.3037928722994221
+38,1.0,,6.0,Morgan,Lead Engineer,1.5,Task 38: Research Component for Platform Upgrade,False,Documentation,1,Completed,2023-01-02,2023-01-03,2023-01-03,1.0,1.0,1.7481255034879117,1.6144851530457953
+39,1.0,,7.0,Casey,Principal Engineer,2.0,Task 39: Review Payment for Platform Upgrade,False,Documentation,1,Completed,2023-01-02,2023-01-03,2023-01-03,1.0,3.0,0.5768613997241229,0.5439307389415761
+40,1.0,33.0,8.0,Jordan,Principal Engineer,2.0,Task 40: Test Reporting for Platform Upgrade,False,Documentation,1,Completed,2023-01-09,2023-01-10,2023-01-04,1.0,1.0,2.1551845128326352,2.370111945069581
+41,1.0,16.0,6.0,Morgan,Lead Engineer,1.5,Task 41: Validate Security for Platform Upgrade,False,Documentation,1,Completed,2023-01-04,2023-01-05,2023-01-05,1.0,1.0,1.2735824531423825,1.363453127630541
+42,1.0,14.0,4.0,Sam,Professional Engineer,1.0,Task 42: Design Workflow for Platform Upgrade,False,Documentation,1,In Progress,2023-01-03,2023-01-05,,2.0,2.0,0.39107814551712744,0.40776700603652466
+43,1.0,,2.0,Jane,Associate Engineer,0.5,Task 43: Migrate Dashboard for Platform Upgrade,False,Documentation,1,In Progress,2023-01-02,2023-01-10,,6.0,3.0,0.1598539948812289,0.16978135056480786
+44,1.0,19.0,3.0,Alex,Professional Engineer,1.0,Task 44: Review Analytics for Platform Upgrade,False,Documentation,1,Completed,2023-01-04,2023-01-05,2023-01-04,1.0,1.0,1.1870244945452249,1.3025397024293524
+45,1.0,,4.0,Sam,Professional Engineer,1.0,Task 45: Research Workflow for Platform Upgrade,False,Documentation,1,Completed,2023-01-02,2023-01-03,2023-01-03,1.0,1.0,1.0838161947278353,1.094653738355133
+46,1.0,32.0,5.0,Taylor,Lead Engineer,1.5,Task 46: Optimize Analytics for Platform Upgrade,False,Documentation,1,Completed,2023-01-03,2023-01-04,2023-01-04,1.0,2.0,0.78065955423555,0.8355183826187947
+47,1.0,13.0,2.0,Jane,Associate Engineer,0.5,Task 47: Refactor API for Platform Upgrade,False,Documentation,1,Completed,2023-01-03,2023-01-17,2023-01-11,10.0,4.0,0.09483473269236352,0.09863228061625658
+48,1.0,9.0,4.0,Sam,Professional Engineer,1.0,Task 48: Design Content Management for Platform Upgrade,False,Documentation,-6,Completed,2023-01-05,2023-01-06,2023-01-02,1.0,4.0,0.19555874686915015,0.19590119937998854
+49,2.0,,1.0,John,Associate Engineer,0.5,Task 49: Validate UI for Feature Enhancement,False,Frontend,4,Completed,2023-02-03,2023-02-13,2023-02-06,6.0,1.0,0.5970265093460386,0.6319006992692104
+50,2.0,49.0,1.0,John,Associate Engineer,0.5,Task 50: Deploy Logging for Feature Enhancement,False,Frontend,6,In Progress,2023-02-07,2023-02-21,,10.0,1.0,0.5580746121615499,0.5052008405588082
+51,2.0,,2.0,Jane,Associate Engineer,0.5,Task 51: Validate Search for Feature Enhancement,False,Frontend,2,Completed,2023-02-03,2023-02-23,2023-02-21,14.0,3.0,0.13621447665384506,0.13264323725656232
+52,2.0,50.0,4.0,Sam,Professional Engineer,1.0,Task 52: Research Cache for Feature Enhancement,False,Frontend,5,Not Started,2023-02-10,2023-03-14,,22.0,3.0,0.22717559783613553,0.2446338810913487
+53,2.0,52.0,1.0,John,Associate Engineer,0.5,Task 53: Refactor Cache for Feature Enhancement,False,Frontend,1,Completed,2023-02-06,2023-02-10,2023-02-10,4.0,2.0,0.2078361645775616,0.2286029481322179
+54,2.0,,4.0,Sam,Professional Engineer,1.0,Task 54: Implement User Management for Feature Enhancement,False,Frontend,1,Completed,2023-02-03,2023-02-08,2023-02-06,3.0,3.0,0.2643909450576271,0.2596739525874095
+55,2.0,51.0,1.0,John,Associate Engineer,0.5,Task 55: Research Authentication for Feature Enhancement,False,Frontend,1,Not Started,2023-02-22,2023-02-27,,3.0,2.0,0.25410054595575515,0.23243851064325405
+56,2.0,52.0,2.0,Jane,Associate Engineer,0.5,Task 56: Test Cache for Feature Enhancement,False,Frontend,1,In Progress,2023-02-08,2023-02-22,,10.0,4.0,0.09248185062852335,0.09155656038458108
+57,2.0,50.0,3.0,Alex,Professional Engineer,1.0,Task 57: Optimize Reporting for Feature Enhancement,False,Frontend,1,In Progress,2023-02-10,2023-02-13,,1.0,1.0,0.9378059122810799,1.0086965652459619
+58,2.0,57.0,1.0,John,Associate Engineer,0.5,Task 58: Prototype API for Feature Enhancement,False,Frontend,1,In Progress,2023-02-10,2023-02-21,,7.0,3.0,0.140789009566222,0.13183379056414754
+59,2.0,56.0,2.0,Jane,Associate Engineer,0.5,Task 59: Optimize Module for Feature Enhancement,False,Frontend,1,Completed,2023-02-07,2023-02-22,2023-02-07,11.0,4.0,0.08514164002686911,0.09213538329238469
+60,2.0,49.0,1.0,John,Associate Engineer,0.5,Task 60: Debug Pipeline for Feature Enhancement,False,Frontend,1,Not Started,2023-02-07,2023-02-15,,6.0,3.0,0.15100750967826887,0.151554221280813
+61,2.0,60.0,3.0,Alex,Professional Engineer,1.0,Task 61: Research Reporting for Feature Enhancement,False,Frontend,1,Completed,2023-02-08,2023-02-09,2023-02-09,1.0,1.0,0.8658628319560497,0.8351525391115948
+62,2.0,52.0,2.0,Jane,Associate Engineer,0.5,Task 62: Implement Search for Feature Enhancement,False,Frontend,1,Not Started,2023-02-07,2023-02-23,,12.0,4.0,0.08211080788196555,0.08935140551173812
+63,2.0,58.0,3.0,Alex,Professional Engineer,1.0,Task 63: Optimize Analytics for Feature Enhancement,False,Frontend,1,Completed,2023-02-08,2023-02-09,2023-02-09,1.0,2.0,0.5122680671080558,0.4867166798450954
+64,2.0,,1.0,John,Associate Engineer,0.5,Task 64: Design Component for Feature Enhancement,False,Frontend,1,Completed,2023-02-03,2023-02-08,2023-02-08,3.0,2.0,0.2660716464338878,0.25406920944501926
+65,2.0,56.0,1.0,John,Associate Engineer,0.5,Task 65: Debug Authentication for Feature Enhancement,False,Frontend,1,Not Started,2023-02-08,2023-02-22,,10.0,4.0,0.09150498974078693,0.08406432384938417
+66,2.0,62.0,1.0,John,Associate Engineer,0.5,Task 66: Deploy Search for Feature Enhancement,False,Frontend,1,Completed,2023-02-07,2023-02-22,2023-02-09,11.0,4.0,0.09071329558608117,0.09217643756526497
+67,2.0,59.0,3.0,Alex,Professional Engineer,1.0,Task 67: Document Pipeline for Feature Enhancement,False,Frontend,1,Completed,2023-02-08,2023-02-13,2023-02-10,3.0,3.0,0.28359817316093383,0.2961123831745838
+68,2.0,58.0,2.0,Jane,Associate Engineer,0.5,Task 68: Optimize Library for Feature Enhancement,False,Frontend,1,Completed,2023-02-10,2023-03-01,2023-02-13,13.0,4.0,0.07144180062326244,0.07663963729570471
+69,2.0,67.0,1.0,John,Associate Engineer,0.5,Task 69: Design Database for Feature Enhancement,False,Frontend,1,In Progress,2023-02-13,2023-03-02,,13.0,4.0,0.07159116311519698,0.07361653058149166
+70,2.0,60.0,3.0,Alex,Professional Engineer,1.0,Task 70: Validate Database for Feature Enhancement,False,Frontend,1,In Progress,2023-02-10,2023-02-16,,4.0,3.0,0.2415632968355258,0.2275916805922456
+71,2.0,63.0,3.0,Alex,Professional Engineer,1.0,Task 71: Prototype Reporting for Feature Enhancement,False,Frontend,1,Completed,2023-02-10,2023-02-17,2023-02-10,5.0,4.0,0.18004960417122448,0.18430267925304344
+72,2.0,66.0,1.0,John,Associate Engineer,0.5,Task 72: Review User Management for Feature Enhancement,False,Frontend,1,In Progress,2023-02-10,2023-02-27,,11.0,4.0,0.08743133210476406,0.08965495586799314
+73,2.0,52.0,2.0,Jane,Associate Engineer,0.5,Task 73: Analyze Reporting for Feature Enhancement,False,Frontend,1,In Progress,2023-02-08,2023-02-22,,10.0,4.0,0.09246675512554314,0.08880681208647749
+74,2.0,55.0,3.0,Alex,Professional Engineer,1.0,Task 74: Analyze Library for Feature Enhancement,False,Frontend,1,Completed,2023-02-07,2023-02-08,2023-02-03,1.0,1.0,1.1218752616862933,1.1633825913614868
+75,2.0,57.0,3.0,Alex,Professional Engineer,1.0,Task 75: Validate UI for Feature Enhancement,False,Frontend,1,In Progress,2023-02-09,2023-02-17,,6.0,4.0,0.1451081117853742,0.13233607402293374
+76,2.0,,4.0,Sam,Professional Engineer,1.0,Task 76: Implement API for Feature Enhancement,False,Frontend,1,Completed,2023-02-03,2023-02-10,2023-02-06,5.0,4.0,0.17077238499442876,0.17023449057992213
+77,2.0,57.0,2.0,Jane,Associate Engineer,0.5,Task 77: Test Workflow for Feature Enhancement,False,Frontend,1,In Progress,2023-02-08,2023-02-22,,10.0,4.0,0.09123310919872227,0.08781337293633104
+78,2.0,52.0,4.0,Sam,Professional Engineer,1.0,Task 78: Design Content Management for Feature Enhancement,False,Frontend,1,Completed,2023-02-08,2023-02-13,2023-02-13,3.0,3.0,0.2916479738458183,0.3126919713921545
+79,2.0,,1.0,John,Associate Engineer,0.5,Task 79: Configure Reporting for Feature Enhancement,False,Frontend,1,Not Started,2023-02-03,2023-02-15,,8.0,3.0,0.11364086141612728,0.11069847673366207
+80,2.0,58.0,4.0,Sam,Professional Engineer,1.0,Task 80: Refactor UI for Feature Enhancement,False,Frontend,1,In Progress,2023-02-10,2023-02-20,,6.0,4.0,0.1474328753526368,0.13981760940126498
+81,2.0,55.0,2.0,Jane,Associate Engineer,0.5,Task 81: Refactor Dashboard for Feature Enhancement,False,Frontend,1,Completed,2023-02-06,2023-02-22,2023-02-07,12.0,4.0,0.07936150860589639,0.07536040105112982
+82,2.0,,2.0,Jane,Associate Engineer,0.5,Task 82: Document Component for Feature Enhancement,False,Frontend,1,Completed,2023-02-03,2023-02-22,2023-02-22,13.0,4.0,0.07177118521301015,0.07816434553806603
+83,2.0,70.0,4.0,Sam,Professional Engineer,1.0,Task 83: Research Cache for Feature Enhancement,False,Frontend,1,In Progress,2023-02-10,2023-02-17,,5.0,4.0,0.16926943203344136,0.18493314631713365
+84,2.0,55.0,3.0,Alex,Professional Engineer,1.0,Task 84: Debug UI for Feature Enhancement,False,Frontend,1,Completed,2023-02-07,2023-02-08,2023-02-08,1.0,1.0,1.1253911385757798,1.223019165398444
+85,2.0,78.0,2.0,Jane,Associate Engineer,0.5,Task 85: Refactor Framework for Feature Enhancement,False,Frontend,1,Not Started,2023-02-14,2023-03-02,,12.0,4.0,0.08094502223017955,0.08520469534214589
+86,2.0,61.0,2.0,Jane,Associate Engineer,0.5,Task 86: Debug Library for Feature Enhancement,False,Frontend,1,In Progress,2023-02-10,2023-02-27,,11.0,4.0,0.0874392939720968,0.08769679988134753
+87,2.0,,1.0,John,Associate Engineer,0.5,Task 87: Review Security for Feature Enhancement,False,Frontend,1,In Progress,2023-02-03,2023-02-20,,11.0,4.0,0.08745658979391789,0.0841077104892965
+88,2.0,83.0,4.0,Sam,Professional Engineer,1.0,Task 88: Refactor API for Feature Enhancement,False,Frontend,1,Completed,2023-02-06,2023-02-14,2023-02-09,6.0,4.0,0.1463034366530649,0.14317962958230493
+89,3.0,,4.0,Sam,Professional Engineer,1.0,Task 89: Configure Pipeline for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-23,2023-01-18,3.0,3.0,0.3164465739255974,0.2984182596145637
+90,3.0,89.0,3.0,Alex,Professional Engineer,1.0,Task 90: Analyze Library for Performance Optimization,False,DevOps,1,Completed,2023-01-19,2023-01-20,2023-01-19,1.0,1.0,0.8194632531718624,0.7836291639234951
+91,3.0,,7.0,Casey,Principal Engineer,2.0,Task 91: Design Performance for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-19,2023-01-17,1.0,1.0,2.3058715810945607,2.377012348127034
+92,3.0,90.0,5.0,Taylor,Lead Engineer,1.5,Task 92: Implement Analytics for Performance Optimization,False,DevOps,1,Completed,2023-01-20,2023-01-23,2023-01-16,1.0,1.0,1.3714490288646106,1.2365471050671446
+93,3.0,91.0,5.0,Taylor,Lead Engineer,1.5,Task 93: Configure Library for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-19,2023-01-19,1.0,1.0,1.4585566616085244,1.5701233324288588
+94,3.0,,8.0,Jordan,Principal Engineer,2.0,Task 94: Migrate Framework for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-19,2023-01-12,1.0,1.0,1.8926221118203208,1.856001415351333
+95,3.0,91.0,5.0,Taylor,Lead Engineer,1.5,Task 95: Migrate Integration for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-19,2023-01-13,1.0,2.0,0.6481570376739844,0.6572677460941415
+96,3.0,92.0,6.0,Morgan,Lead Engineer,1.5,Task 96: Deploy Workflow for Performance Optimization,False,DevOps,1,Completed,2023-01-17,2023-01-18,2023-01-16,1.0,1.0,1.4175142655665707,1.3575822435338416
+97,3.0,95.0,7.0,Casey,Principal Engineer,2.0,Task 97: Migrate API for Performance Optimization,False,DevOps,1,Completed,2023-01-16,2023-01-17,2023-01-12,1.0,1.0,2.003404423298564,2.109346097887129
+98,3.0,94.0,5.0,Taylor,Lead Engineer,1.5,Task 98: Optimize Monitoring for Performance Optimization,False,DevOps,1,Completed,2023-01-13,2023-01-16,2023-01-13,1.0,1.0,1.6951867907751679,1.736970290012646
+99,3.0,96.0,8.0,Jordan,Principal Engineer,2.0,Task 99: Research Workflow for Performance Optimization,False,DevOps,1,Completed,2023-01-17,2023-01-18,2023-01-16,1.0,1.0,1.6950488157788717,1.8561065285116771
+100,3.0,97.0,8.0,Jordan,Principal Engineer,2.0,Task 100: Deploy Payment for Performance Optimization,False,DevOps,1,Completed,2023-01-13,2023-01-16,2023-01-13,1.0,1.0,1.898558669059856,2.0833976571212967
+101,3.0,,3.0,Alex,Professional Engineer,1.0,Task 101: Research Service for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-19,2023-01-13,1.0,1.0,1.17557942678215,1.2355257890008249
+102,3.0,,4.0,Sam,Professional Engineer,1.0,Task 102: Test API for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-25,2023-01-18,5.0,4.0,0.1821724065813316,0.17857949614584534
+103,3.0,,4.0,Sam,Professional Engineer,1.0,Task 103: Configure Dashboard for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-26,2023-01-23,6.0,4.0,0.14317123467269524,0.13277804456517184
+104,3.0,99.0,6.0,Morgan,Lead Engineer,1.5,Task 104: Configure Module for Performance Optimization,False,DevOps,1,Completed,2023-01-17,2023-01-18,2023-01-12,1.0,1.0,1.6823795131165271,1.6888845042760061
+105,3.0,93.0,6.0,Morgan,Lead Engineer,1.5,Task 105: Deploy Content Management for Performance Optimization,False,DevOps,1,Completed,2023-01-20,2023-01-23,2023-01-18,1.0,1.0,1.5637563134422823,1.5686057507502449
+106,3.0,,3.0,Alex,Professional Engineer,1.0,Task 106: Document Component for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-19,2023-01-17,1.0,1.0,1.172547494211996,1.129991062904925
+107,3.0,92.0,3.0,Alex,Professional Engineer,1.0,Task 107: Optimize Integration for Performance Optimization,False,DevOps,1,Completed,2023-01-17,2023-01-18,2023-01-13,1.0,1.0,1.196246295024456,1.253503274707215
+108,3.0,106.0,8.0,Jordan,Principal Engineer,2.0,Task 108: Configure Library for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-19,2023-01-18,1.0,1.0,2.0749797245047894,2.078015414115334
+109,3.0,,7.0,Casey,Principal Engineer,2.0,Task 109: Validate Analytics for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-19,2023-01-16,1.0,1.0,2.025871863900701,2.110447884047428
+110,3.0,94.0,7.0,Casey,Principal Engineer,2.0,Task 110: Analyze Logging for Performance Optimization,False,DevOps,1,Completed,2023-01-13,2023-01-16,2023-01-11,1.0,1.0,1.9799140799984265,1.788510620488052
+111,3.0,,5.0,Taylor,Lead Engineer,1.5,Task 111: Prototype Payment for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-19,2023-01-18,1.0,2.0,0.7219277259677145,0.7912180648368257
+112,3.0,96.0,7.0,Casey,Principal Engineer,2.0,Task 112: Review Monitoring for Performance Optimization,False,DevOps,1,Completed,2023-01-17,2023-01-18,2023-01-18,1.0,1.0,1.8461422669694114,1.9933784281133007
+113,3.0,97.0,8.0,Jordan,Principal Engineer,2.0,Task 113: Refactor Library for Performance Optimization,False,DevOps,1,Completed,2023-01-13,2023-01-16,2023-01-11,1.0,2.0,0.9465337730168772,0.9648794179028358
+114,3.0,101.0,4.0,Sam,Professional Engineer,1.0,Task 114: Analyze Integration for Performance Optimization,False,DevOps,1,Completed,2023-01-16,2023-01-19,2023-01-18,3.0,3.0,0.31648754092501874,0.3343946586382194
+115,3.0,99.0,3.0,Alex,Professional Engineer,1.0,Task 115: Migrate Monitoring for Performance Optimization,False,DevOps,1,In Progress,2023-01-17,2023-01-18,,1.0,1.0,1.0310537583456731,1.0767088419219255
+116,3.0,102.0,3.0,Alex,Professional Engineer,1.0,Task 116: Debug Dashboard for Performance Optimization,False,DevOps,1,Completed,2023-01-19,2023-01-24,2023-01-24,3.0,3.0,0.2755758162184149,0.25741603471475755
+117,3.0,89.0,7.0,Casey,Principal Engineer,2.0,Task 117: Refactor Framework for Performance Optimization,False,DevOps,1,Completed,2023-01-19,2023-01-20,2023-01-18,1.0,1.0,2.1769462681992993,2.2965068261125725
+118,3.0,112.0,6.0,Morgan,Lead Engineer,1.5,Task 118: Migrate Notification for Performance Optimization,False,DevOps,1,Completed,2023-01-19,2023-01-20,2023-01-13,1.0,1.0,1.288665424980199,1.3352447251833661
+119,3.0,102.0,6.0,Morgan,Lead Engineer,1.5,Task 119: Optimize API for Performance Optimization,False,DevOps,1,Completed,2023-01-19,2023-01-20,2023-01-16,1.0,1.0,1.5435421628424755,1.6054446590181595
+120,3.0,114.0,5.0,Taylor,Lead Engineer,1.5,Task 120: Debug Workflow for Performance Optimization,False,DevOps,1,Completed,2023-01-19,2023-01-20,2023-01-16,1.0,2.0,0.5451130892267855,0.5248013560477854
+121,3.0,,6.0,Morgan,Lead Engineer,1.5,Task 121: Configure Reporting for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-19,2023-01-18,1.0,1.0,1.4477760658733558,1.3620363589353792
+122,3.0,90.0,6.0,Morgan,Lead Engineer,1.5,Task 122: Design Payment for Performance Optimization,False,DevOps,1,Completed,2023-01-20,2023-01-23,2023-01-23,1.0,1.0,1.6649833810842547,1.8050154596795787
+123,3.0,,4.0,Sam,Professional Engineer,1.0,Task 123: Test UI for Performance Optimization,False,DevOps,1,In Progress,2023-01-18,2023-01-25,,5.0,4.0,0.19091814692586428,0.19877539212699522
+124,3.0,118.0,6.0,Morgan,Lead Engineer,1.5,Task 124: Refactor Library for Performance Optimization,False,DevOps,1,Completed,2023-01-16,2023-01-17,2023-01-17,1.0,1.0,1.511209926936068,1.5296124660637955
+125,3.0,,5.0,Taylor,Lead Engineer,1.5,Task 125: Prototype Cache for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-20,2023-01-16,2.0,3.0,0.3965393573349443,0.3867705925167619
+126,3.0,123.0,3.0,Alex,Professional Engineer,1.0,Task 126: Implement Security for Performance Optimization,False,DevOps,1,Completed,2023-01-24,2023-01-27,2023-01-24,3.0,3.0,0.31062657716522774,0.30083109340344344
+127,3.0,91.0,8.0,Jordan,Principal Engineer,2.0,Task 127: Research API for Performance Optimization,False,DevOps,1,Completed,2023-01-18,2023-01-19,2023-01-19,1.0,2.0,0.9633126875602924,1.0341459178574135
+128,3.0,90.0,4.0,Sam,Professional Engineer,1.0,Task 128: Configure Integration for Performance Optimization,False,DevOps,-2,Completed,2023-01-20,2023-01-23,2023-01-20,1.0,4.0,0.18503163699996228,0.1921854526417021
+129,4.0,,6.0,Morgan,Lead Engineer,1.5,Task 129: Deploy Authentication for Security Hardening,False,Backend,1,Completed,2023-01-26,2023-01-27,2023-01-24,1.0,1.0,1.490508061016787,1.6268410761429366
+130,4.0,129.0,6.0,Morgan,Lead Engineer,1.5,Task 130: Test Notification for Security Hardening,False,Backend,1,Completed,2023-01-25,2023-01-26,2023-01-23,1.0,1.0,1.5348519904844424,1.4503943156075214
+131,4.0,,4.0,Sam,Professional Engineer,1.0,Task 131: Design Search for Security Hardening,False,Backend,1,Completed,2023-01-26,2023-02-02,2023-02-02,5.0,4.0,0.19398219883613502,0.20193162569036394
+132,4.0,130.0,5.0,Taylor,Lead Engineer,1.5,Task 132: Debug Content Management for Security Hardening,False,Backend,1,Completed,2023-01-24,2023-01-25,2023-01-20,1.0,1.0,1.6229929558441178,1.5636046394358085
+133,4.0,130.0,3.0,Alex,Professional Engineer,1.0,Task 133: Design Content Management for Security Hardening,False,Backend,1,Completed,2023-01-24,2023-01-31,2023-01-31,5.0,4.0,0.17923413131653534,0.1948090535792125
+134,4.0,129.0,8.0,Jordan,Principal Engineer,2.0,Task 134: Research Search for Security Hardening,False,Backend,1,Completed,2023-01-25,2023-01-26,2023-01-26,1.0,1.0,1.8187660294043384,1.6812215231380434
+135,4.0,134.0,5.0,Taylor,Lead Engineer,1.5,Task 135: Refactor Database for Security Hardening,False,Backend,1,Completed,2023-01-27,2023-01-30,2023-01-26,1.0,1.0,1.525914526192967,1.64669385362438
+136,4.0,,3.0,Alex,Professional Engineer,1.0,Task 136: Prototype Logging for Security Hardening,False,Backend,1,Completed,2023-01-26,2023-01-31,2023-01-25,3.0,3.0,0.3006269290805933,0.3279604623874321
+137,4.0,,6.0,Morgan,Lead Engineer,1.5,Task 137: Deploy Monitoring for Security Hardening,False,Backend,1,Completed,2023-01-26,2023-01-27,2023-01-27,1.0,1.0,1.3742715911957613,1.315900873525434
+138,4.0,137.0,6.0,Morgan,Lead Engineer,1.5,Task 138: Deploy Pipeline for Security Hardening,False,Backend,1,Completed,2023-01-30,2023-01-31,2023-01-31,1.0,1.0,1.2474176616059103,1.3532010823080018
+139,4.0,138.0,6.0,Morgan,Lead Engineer,1.5,Task 139: Review Library for Security Hardening,False,Backend,1,Completed,2023-02-01,2023-02-02,2023-01-27,1.0,1.0,1.3538663852840893,1.3482016087726187
+140,4.0,136.0,3.0,Alex,Professional Engineer,1.0,Task 140: Document Dashboard for Security Hardening,False,Backend,1,Completed,2023-01-26,2023-01-31,2023-01-30,3.0,3.0,0.3016481817075236,0.28784070205519147
+141,4.0,135.0,7.0,Casey,Principal Engineer,2.0,Task 141: Refactor API for Security Hardening,False,Backend,1,Completed,2023-01-27,2023-01-30,2023-01-27,1.0,1.0,2.156937040517458,2.00046116063999
+142,4.0,132.0,5.0,Taylor,Lead Engineer,1.5,Task 142: Refactor Pipeline for Security Hardening,False,Backend,1,Completed,2023-01-23,2023-01-24,2023-01-17,1.0,1.0,1.644534586013096,1.5587826540640566
+143,4.0,,5.0,Taylor,Lead Engineer,1.5,Task 143: Analyze Pipeline for Security Hardening,False,Backend,1,Completed,2023-01-26,2023-01-27,2023-01-27,1.0,1.0,1.6019003789358623,1.6118454537690032
+144,4.0,,7.0,Casey,Principal Engineer,2.0,Task 144: Design Service for Security Hardening,False,Backend,1,Completed,2023-01-26,2023-01-27,2023-01-24,1.0,1.0,1.7862692478447622,1.6434384296481828
+145,4.0,136.0,6.0,Morgan,Lead Engineer,1.5,Task 145: Analyze Logging for Security Hardening,False,Backend,1,In Progress,2023-01-26,2023-01-27,,1.0,2.0,0.7336866751875658,0.6750716990474378
+146,4.0,,6.0,Morgan,Lead Engineer,1.5,Task 146: Design Framework for Security Hardening,False,Backend,1,Completed,2023-01-26,2023-01-30,2023-01-27,2.0,3.0,0.4433225692957247,0.3994497227929276
+147,4.0,138.0,6.0,Morgan,Lead Engineer,1.5,Task 147: Deploy Search for Security Hardening,False,Backend,1,Completed,2023-02-01,2023-02-02,2023-02-02,1.0,2.0,0.8040358921949335,0.7490303618005387
+148,4.0,140.0,6.0,Morgan,Lead Engineer,1.5,Task 148: Debug Workflow for Security Hardening,False,Backend,1,Completed,2023-01-31,2023-02-02,2023-01-31,2.0,3.0,0.4696051357753843,0.505144816903093
+149,4.0,,5.0,Taylor,Lead Engineer,1.5,Task 149: Review Framework for Security Hardening,False,Backend,1,Completed,2023-01-26,2023-01-27,2023-01-24,1.0,2.0,0.7156454468060517,0.7522737636966872
+150,4.0,135.0,4.0,Sam,Professional Engineer,1.0,Task 150: Refactor Authentication for Security Hardening,False,Backend,1,In Progress,2023-01-27,2023-02-06,,6.0,4.0,0.16248173914834166,0.16722288863572826
+151,4.0,144.0,4.0,Sam,Professional Engineer,1.0,Task 151: Review Workflow for Security Hardening,False,Backend,1,In Progress,2023-01-25,2023-01-31,,4.0,4.0,0.20355558711149355,0.18684207429777197
+152,4.0,,3.0,Alex,Professional Engineer,1.0,Task 152: Review Service for Security Hardening,False,Backend,1,Completed,2023-01-26,2023-02-02,2023-02-02,5.0,4.0,0.18018933472227613,0.18145614779976252
+153,4.0,151.0,4.0,Sam,Professional Engineer,1.0,Task 153: Migrate Integration for Security Hardening,False,Backend,1,Completed,2023-01-27,2023-02-02,2023-01-27,4.0,4.0,0.20392608079688967,0.19067352742708477
+154,4.0,,3.0,Alex,Professional Engineer,1.0,Task 154: Migrate Framework for Security Hardening,False,Backend,1,Completed,2023-01-26,2023-02-01,2023-01-30,4.0,4.0,0.205374582740474,0.18632978074020265
+155,4.0,,8.0,Jordan,Principal Engineer,2.0,Task 155: Optimize Authentication for Security Hardening,False,Backend,1,Completed,2023-01-26,2023-01-27,2023-01-27,1.0,2.0,1.0036658267553018,0.9406981676972945
+156,4.0,144.0,7.0,Casey,Principal Engineer,2.0,Task 156: Optimize Library for Security Hardening,False,Backend,1,Completed,2023-01-25,2023-01-26,2023-01-19,1.0,1.0,2.369705104066674,2.5716227933947193
+157,4.0,156.0,3.0,Alex,Professional Engineer,1.0,Task 157: Optimize Authentication for Security Hardening,False,Backend,1,Completed,2023-01-20,2023-01-26,2023-01-19,4.0,3.0,0.214321831304544,0.2172349737347547
+158,4.0,147.0,6.0,Morgan,Lead Engineer,1.5,Task 158: Deploy User Management for Security Hardening,False,Backend,1,Completed,2023-02-03,2023-02-06,2023-02-02,1.0,2.0,0.7906828084245946,0.7645969354616292
+159,4.0,147.0,4.0,Sam,Professional Engineer,1.0,Task 159: Review Database for Security Hardening,False,Backend,1,Completed,2023-02-03,2023-02-09,2023-02-07,4.0,4.0,0.2092369629062106,0.21104897524057695
+160,4.0,142.0,3.0,Alex,Professional Engineer,1.0,Task 160: Configure Notification for Security Hardening,False,Backend,1,Completed,2023-01-18,2023-01-19,2023-01-18,1.0,2.0,0.520066793478585,0.4820187012519135
+161,4.0,157.0,7.0,Casey,Principal Engineer,2.0,Task 161: Review Search for Security Hardening,False,Backend,1,In Progress,2023-01-20,2023-01-23,,1.0,1.0,1.974416615205032,1.853112959355074
+162,4.0,132.0,5.0,Taylor,Lead Engineer,1.5,Task 162: Configure Workflow for Security Hardening,False,Backend,1,Completed,2023-01-23,2023-01-24,2023-01-20,1.0,1.0,1.2675880566120927,1.182024408243556
+163,4.0,145.0,4.0,Sam,Professional Engineer,1.0,Task 163: Deploy Database for Security Hardening,False,Backend,1,Completed,2023-01-31,2023-02-07,2023-02-02,5.0,4.0,0.1903018721419121,0.17180773468648225
+164,4.0,133.0,4.0,Sam,Professional Engineer,1.0,Task 164: Test API for Security Hardening,False,Backend,1,Completed,2023-02-01,2023-02-08,2023-02-02,5.0,4.0,0.19535373650976787,0.1980019995227939
+165,4.0,159.0,6.0,Morgan,Lead Engineer,1.5,Task 165: Review UI for Security Hardening,False,Backend,1,In Progress,2023-02-08,2023-02-09,,1.0,2.0,0.5873836267363856,0.6292225518023115
+166,4.0,,5.0,Taylor,Lead Engineer,1.5,Task 166: Analyze Monitoring for Security Hardening,False,Backend,1,Completed,2023-01-26,2023-01-27,2023-01-26,1.0,2.0,0.7822015456816733,0.8333559350323354
+167,4.0,145.0,8.0,Jordan,Principal Engineer,2.0,Task 167: Research Payment for Security Hardening,False,Backend,1,Completed,2023-01-31,2023-02-01,2023-01-26,1.0,1.0,1.6693902158786849,1.7259010290112398
+168,4.0,141.0,7.0,Casey,Principal Engineer,2.0,Task 168: Debug Authentication for Security Hardening,False,Backend,-5,Completed,2023-01-30,2023-01-31,2023-01-25,1.0,2.0,1.073406669278594,1.0685664850694245
+169,5.0,,5.0,Taylor,Lead Engineer,1.5,Task 169: Prototype Integration for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-11,2023-01-09,1.0,1.0,1.2040980723237333,1.1760605019725119
+170,5.0,169.0,1.0,John,Associate Engineer,0.5,Task 170: Configure Workflow for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-11,2023-01-06,1.0,1.0,0.5507513303562914,0.6007633868773467
+171,5.0,170.0,8.0,Jordan,Principal Engineer,2.0,Task 171: Analyze Performance for UX Redesign,False,Documentation,1,Completed,2023-01-09,2023-01-10,2023-01-05,1.0,1.0,2.0659686012439877,2.09608106360191
+172,5.0,171.0,8.0,Jordan,Principal Engineer,2.0,Task 172: Implement Cache for UX Redesign,False,Documentation,1,Completed,2023-01-06,2023-01-09,2023-01-02,1.0,1.0,2.122946693656159,2.2047941819919017
+173,5.0,170.0,5.0,Taylor,Lead Engineer,1.5,Task 173: Deploy Search for UX Redesign,False,Documentation,1,Completed,2023-01-09,2023-01-10,2023-01-04,1.0,1.0,1.6006716688792029,1.5895934173590907
+174,5.0,170.0,5.0,Taylor,Lead Engineer,1.5,Task 174: Optimize Analytics for UX Redesign,False,Documentation,1,Completed,2023-01-09,2023-01-10,2023-01-10,1.0,1.0,1.4432499677810384,1.4439775017877583
+175,5.0,173.0,5.0,Taylor,Lead Engineer,1.5,Task 175: Debug Payment for UX Redesign,False,Documentation,1,Completed,2023-01-05,2023-01-06,2023-01-04,1.0,2.0,0.7478570828137103,0.7763190841225013
+176,5.0,172.0,2.0,Jane,Associate Engineer,0.5,Task 176: Refactor Library for UX Redesign,False,Documentation,1,Completed,2023-01-03,2023-01-19,2023-01-13,12.0,4.0,0.08286403660857596,0.07823772484886723
+177,5.0,176.0,3.0,Alex,Professional Engineer,1.0,Task 177: Review User Management for UX Redesign,False,Documentation,1,Completed,2023-01-16,2023-01-17,2023-01-16,1.0,1.0,0.9912727598940896,0.9823470768347472
+178,5.0,174.0,1.0,John,Associate Engineer,0.5,Task 178: Review Library for UX Redesign,False,Documentation,1,Completed,2023-01-11,2023-01-13,2023-01-11,2.0,1.0,0.47472496839738726,0.49389822943232653
+179,5.0,,7.0,Casey,Principal Engineer,2.0,Task 179: Prototype API for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-11,2023-01-05,1.0,1.0,2.205880418643461,2.3391133864226537
+180,5.0,177.0,7.0,Casey,Principal Engineer,2.0,Task 180: Refactor Notification for UX Redesign,False,Documentation,1,Completed,2023-01-17,2023-01-18,2023-01-17,1.0,2.0,0.9942694631895985,1.0301311559713668
+181,5.0,,8.0,Jordan,Principal Engineer,2.0,Task 181: Document Pipeline for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-11,2023-01-09,1.0,1.0,2.298508046790187,2.1062931537555687
+182,5.0,180.0,5.0,Taylor,Lead Engineer,1.5,Task 182: Optimize Authentication for UX Redesign,False,Documentation,1,Completed,2023-01-18,2023-01-20,2023-01-19,2.0,3.0,0.40450769985171103,0.39332588286811904
+183,5.0,,4.0,Sam,Professional Engineer,1.0,Task 183: Review Reporting for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-16,2023-01-13,4.0,3.0,0.22530227109730883,0.24011697930424927
+184,5.0,182.0,7.0,Casey,Principal Engineer,2.0,Task 184: Validate Authentication for UX Redesign,False,Documentation,1,Completed,2023-01-20,2023-01-23,2023-01-17,1.0,2.0,0.7927764404279933,0.7985891023822597
+185,5.0,173.0,2.0,Jane,Associate Engineer,0.5,Task 185: Optimize Content Management for UX Redesign,False,Documentation,1,Completed,2023-01-05,2023-01-23,2023-01-16,12.0,4.0,0.08148411732097721,0.08181561982665535
+186,5.0,184.0,5.0,Taylor,Lead Engineer,1.5,Task 186: Optimize Service for UX Redesign,False,Documentation,1,Completed,2023-01-18,2023-01-23,2023-01-19,3.0,4.0,0.2814309999836024,0.2936404880109283
+187,5.0,185.0,3.0,Alex,Professional Engineer,1.0,Task 187: Analyze Integration for UX Redesign,False,Documentation,1,Completed,2023-01-17,2023-01-19,2023-01-12,2.0,2.0,0.3763694960013038,0.3771504893549384
+188,5.0,,5.0,Taylor,Lead Engineer,1.5,Task 188: Prototype Cache for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-11,2023-01-09,1.0,2.0,0.6624267210485412,0.6641818661151468
+189,5.0,,5.0,Taylor,Lead Engineer,1.5,Task 189: Review Workflow for UX Redesign,False,Documentation,1,In Progress,2023-01-10,2023-01-11,,1.0,2.0,0.6922560199766526,0.700396562969585
+190,5.0,,8.0,Jordan,Principal Engineer,2.0,Task 190: Optimize Reporting for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-11,2023-01-04,1.0,1.0,2.1382141697818957,2.056179258505945
+191,5.0,186.0,6.0,Morgan,Lead Engineer,1.5,Task 191: Debug Monitoring for UX Redesign,False,Documentation,1,Completed,2023-01-20,2023-01-23,2023-01-23,1.0,2.0,0.6469061516873795,0.6878492594028712
+192,5.0,,4.0,Sam,Professional Engineer,1.0,Task 192: Document Search for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-18,2023-01-16,6.0,4.0,0.15525309160710712,0.14199539438179162
+193,5.0,,4.0,Sam,Professional Engineer,1.0,Task 193: Debug UI for UX Redesign,False,Documentation,1,In Progress,2023-01-10,2023-01-18,,6.0,4.0,0.1641170206593494,0.14979813595608188
+194,5.0,,8.0,Jordan,Principal Engineer,2.0,Task 194: Research Performance for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-11,2023-01-04,1.0,1.0,2.395298928381536,2.6034900708739683
+195,5.0,170.0,3.0,Alex,Professional Engineer,1.0,Task 195: Test Analytics for UX Redesign,False,Documentation,1,Completed,2023-01-09,2023-01-10,2023-01-05,1.0,1.0,1.1944548992329107,1.1877829610369899
+196,5.0,,2.0,Jane,Associate Engineer,0.5,Task 196: Optimize Authentication for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-25,2023-01-25,11.0,4.0,0.08431034275367369,0.0888457681111889
+197,5.0,,1.0,John,Associate Engineer,0.5,Task 197: Debug Payment for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-11,2023-01-09,1.0,1.0,0.5956666569848201,0.6130459248316498
+198,5.0,177.0,2.0,Jane,Associate Engineer,0.5,Task 198: Refactor Notification for UX Redesign,False,Documentation,1,Completed,2023-01-17,2023-02-02,2023-01-31,12.0,4.0,0.08310613222233937,0.0896105766900065
+199,5.0,,2.0,Jane,Associate Engineer,0.5,Task 199: Prototype User Management for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-23,2023-01-19,9.0,4.0,0.10043670998587478,0.10860758408574028
+200,5.0,197.0,6.0,Morgan,Lead Engineer,1.5,Task 200: Research Logging for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-11,2023-01-10,1.0,1.0,1.24814999557762,1.3640143558430062
+201,5.0,187.0,2.0,Jane,Associate Engineer,0.5,Task 201: Document Workflow for UX Redesign,False,Documentation,1,Completed,2023-01-13,2023-02-01,2023-01-25,13.0,4.0,0.07465464322174856,0.08003405645607432
+202,5.0,,7.0,Casey,Principal Engineer,2.0,Task 202: Research Payment for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-11,2023-01-10,1.0,1.0,1.7427789032032894,1.7557655640152343
+203,5.0,188.0,8.0,Jordan,Principal Engineer,2.0,Task 203: Validate API for UX Redesign,False,Documentation,1,In Progress,2023-01-10,2023-01-11,,1.0,1.0,1.7018776698580869,1.8648237353136559
+204,5.0,,6.0,Morgan,Lead Engineer,1.5,Task 204: Review Security for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-11,2023-01-06,1.0,2.0,0.7654018351505532,0.8046178740027176
+205,5.0,202.0,7.0,Casey,Principal Engineer,2.0,Task 205: Debug Search for UX Redesign,False,Documentation,1,Completed,2023-01-11,2023-01-12,2023-01-10,1.0,1.0,1.970403120955824,2.056743811384624
+206,5.0,193.0,3.0,Alex,Professional Engineer,1.0,Task 206: Configure User Management for UX Redesign,False,Documentation,1,Completed,2023-01-17,2023-01-19,2023-01-17,2.0,2.0,0.4282697642460829,0.4051144229692846
+207,5.0,,8.0,Jordan,Principal Engineer,2.0,Task 207: Test Service for UX Redesign,False,Documentation,1,Completed,2023-01-10,2023-01-11,2023-01-11,1.0,2.0,0.8446175045955456,0.8067194711825435
+208,5.0,198.0,8.0,Jordan,Principal Engineer,2.0,Task 208: Review User Management for UX Redesign,False,Documentation,-6,Completed,2023-02-01,2023-02-02,2023-02-02,1.0,2.0,0.9955763745354419,0.9024336965969668
+209,6.0,,5.0,Taylor,Lead Engineer,1.5,Task 209: Deploy Reporting for Data Migration,False,Documentation,8,In Progress,2023-02-13,2023-03-01,,12.0,2.0,0.6531949615927731,0.6879519184916468
+210,6.0,209.0,2.0,Jane,Associate Engineer,0.5,Task 210: Configure Framework for Data Migration,False,Documentation,2,Not Started,2023-02-14,2023-03-21,,25.0,4.0,0.07842332029501242,0.07163642347155988
+211,6.0,210.0,7.0,Casey,Principal Engineer,2.0,Task 211: Prototype Framework for Data Migration,False,Documentation,6,Not Started,2023-02-20,2023-03-02,,8.0,2.0,0.7320874592715411,0.7464048785922076
+212,6.0,,7.0,Casey,Principal Engineer,2.0,Task 212: Design Service for Data Migration,False,Documentation,1,In Progress,2023-02-13,2023-02-14,,1.0,2.0,0.9731830560713743,0.8853389446774976
+213,6.0,211.0,6.0,Morgan,Lead Engineer,1.5,Task 213: Implement User Management for Data Migration,False,Documentation,1,Not Started,2023-02-14,2023-02-16,,2.0,3.0,0.38436245612974507,0.3639404546462009
+214,6.0,209.0,5.0,Taylor,Lead Engineer,1.5,Task 214: Validate Notification for Data Migration,False,Documentation,1,Not Started,2023-02-15,2023-02-17,,2.0,3.0,0.4407017133995656,0.4650340555969221
+215,6.0,,5.0,Taylor,Lead Engineer,1.5,Task 215: Document Notification for Data Migration,False,Documentation,1,In Progress,2023-02-13,2023-02-15,,2.0,3.0,0.34242169201838485,0.37621757900508485
+216,6.0,213.0,4.0,Sam,Professional Engineer,1.0,Task 216: Review User Management for Data Migration,False,Documentation,1,Not Started,2023-02-15,2023-02-22,,5.0,4.0,0.19710503797343218,0.20623169043365142
+217,6.0,,2.0,Jane,Associate Engineer,0.5,Task 217: Deploy UI for Data Migration,False,Documentation,1,Completed,2023-02-13,2023-03-01,2023-02-27,12.0,4.0,0.08116162937292172,0.08275106097067166
+218,6.0,214.0,8.0,Jordan,Principal Engineer,2.0,Task 218: Analyze Integration for Data Migration,False,Documentation,1,Not Started,2023-02-16,2023-02-17,,1.0,2.0,0.8052854525196195,0.8658845231668211
+219,6.0,215.0,5.0,Taylor,Lead Engineer,1.5,Task 219: Test Module for Data Migration,False,Documentation,1,Not Started,2023-02-20,2023-02-24,,4.0,4.0,0.23320948774683337,0.22390447367079058
+220,6.0,213.0,6.0,Morgan,Lead Engineer,1.5,Task 220: Prototype Component for Data Migration,False,Documentation,1,Not Started,2023-02-14,2023-02-17,,3.0,4.0,0.2684554024010496,0.27337710923877184
+221,6.0,,8.0,Jordan,Principal Engineer,2.0,Task 221: Review Workflow for Data Migration,False,Documentation,1,Completed,2023-02-13,2023-02-14,2023-02-14,1.0,2.0,0.984676359356701,0.920698625465207
+222,6.0,210.0,2.0,Jane,Associate Engineer,0.5,Task 222: Test Dashboard for Data Migration,False,Documentation,1,Not Started,2023-02-20,2023-03-07,,11.0,4.0,0.08734672756225573,0.09559732886563145
+223,6.0,,7.0,Casey,Principal Engineer,2.0,Task 223: Research Reporting for Data Migration,False,Documentation,1,In Progress,2023-02-13,2023-02-14,,1.0,3.0,0.6275384340974745,0.6490432380321222
+224,6.0,,2.0,Jane,Associate Engineer,0.5,Task 224: Implement Pipeline for Data Migration,False,Documentation,1,In Progress,2023-02-13,2023-02-27,,10.0,4.0,0.09750316085931812,0.09396836818601029
+225,6.0,217.0,8.0,Jordan,Principal Engineer,2.0,Task 225: Configure Performance for Data Migration,False,Documentation,1,Not Started,2023-02-28,2023-03-01,,1.0,3.0,0.5154825884632416,0.4793181453621191
+226,6.0,224.0,2.0,Jane,Associate Engineer,0.5,Task 226: Implement Notification for Data Migration,False,Documentation,1,Not Started,2023-02-17,2023-03-08,,13.0,4.0,0.07643576425615373,0.07701557943127804
+227,6.0,223.0,4.0,Sam,Professional Engineer,1.0,Task 227: Validate Content Management for Data Migration,False,Documentation,1,Not Started,2023-02-15,2023-02-22,,5.0,4.0,0.19945386525820283,0.19150508696290292
+228,6.0,210.0,7.0,Casey,Principal Engineer,2.0,Task 228: Implement Framework for Data Migration,False,Documentation,1,Not Started,2023-02-15,2023-02-17,,2.0,4.0,0.39280866239088413,0.42539144753589436
+229,6.0,226.0,2.0,Jane,Associate Engineer,0.5,Task 229: Test Performance for Data Migration,False,Documentation,1,Not Started,2023-02-20,2023-03-07,,11.0,4.0,0.08444371211433795,0.08303363498002984
+230,6.0,226.0,6.0,Morgan,Lead Engineer,1.5,Task 230: Debug Search for Data Migration,False,Documentation,1,Not Started,2023-02-20,2023-02-24,,4.0,4.0,0.22407973886120316,0.21255569954819759
+231,6.0,224.0,7.0,Casey,Principal Engineer,2.0,Task 231: Configure Cache for Data Migration,False,Documentation,1,Not Started,2023-02-15,2023-02-20,,3.0,4.0,0.3262368191073747,0.2987722745318698
+232,6.0,215.0,1.0,John,Associate Engineer,0.5,Task 232: Optimize Monitoring for Data Migration,False,Documentation,1,Not Started,2023-02-17,2023-03-03,,10.0,4.0,0.09964966850718641,0.0915275029770181
+233,6.0,230.0,6.0,Morgan,Lead Engineer,1.5,Task 233: Refactor Reporting for Data Migration,False,Documentation,1,Not Started,2023-02-15,2023-02-21,,4.0,4.0,0.21541134605697143,0.21011946368647516
+234,6.0,215.0,1.0,John,Associate Engineer,0.5,Task 234: Design Monitoring for Data Migration,False,Documentation,1,Not Started,2023-02-20,2023-03-06,,10.0,4.0,0.09110227157461764,0.09790980606964708
+235,6.0,228.0,4.0,Sam,Professional Engineer,1.0,Task 235: Implement UI for Data Migration,False,Documentation,1,Not Started,2023-02-15,2023-02-22,,5.0,4.0,0.19632554324953813,0.19976452630731525
+236,6.0,,4.0,Sam,Professional Engineer,1.0,Task 236: Research Search for Data Migration,False,Documentation,1,Completed,2023-02-13,2023-02-20,2023-02-14,5.0,4.0,0.1870015365564788,0.1764178675035817
+237,6.0,,2.0,Jane,Associate Engineer,0.5,Task 237: Migrate Module for Data Migration,False,Documentation,1,Completed,2023-02-13,2023-02-24,2023-02-13,9.0,4.0,0.10043158480335881,0.09707645300672141
+238,6.0,213.0,4.0,Sam,Professional Engineer,1.0,Task 238: Research Notification for Data Migration,False,Documentation,1,Not Started,2023-02-15,2023-02-21,,4.0,4.0,0.20560118342415734,0.22460192189833242
+239,6.0,,5.0,Taylor,Lead Engineer,1.5,Task 239: Test Integration for Data Migration,False,Documentation,1,In Progress,2023-02-13,2023-02-17,,4.0,4.0,0.22231820094155008,0.24453099090974198
+240,6.0,236.0,3.0,Alex,Professional Engineer,1.0,Task 240: Implement Integration for Data Migration,False,Documentation,1,Not Started,2023-02-15,2023-02-22,,5.0,4.0,0.1735244613439656,0.16459118545066925
+241,6.0,,6.0,Morgan,Lead Engineer,1.5,Task 241: Document Search for Data Migration,False,Documentation,1,Completed,2023-02-13,2023-02-15,2023-02-13,2.0,3.0,0.4167042454526051,0.3920781198932934
+242,6.0,212.0,1.0,John,Associate Engineer,0.5,Task 242: Test Workflow for Data Migration,False,Documentation,1,Not Started,2023-02-20,2023-03-08,,12.0,4.0,0.08125652530895908,0.07773095414750959
+243,6.0,,2.0,Jane,Associate Engineer,0.5,Task 243: Optimize Monitoring for Data Migration,False,Documentation,1,Completed,2023-02-13,2023-02-28,2023-02-17,11.0,4.0,0.08631876612959619,0.08888625464269985
+244,6.0,223.0,2.0,Jane,Associate Engineer,0.5,Task 244: Configure UI for Data Migration,False,Documentation,1,Not Started,2023-02-16,2023-03-06,,12.0,4.0,0.08258756162932945,0.08891066277095826
+245,6.0,210.0,8.0,Jordan,Principal Engineer,2.0,Task 245: Implement Logging for Data Migration,False,Documentation,1,Not Started,2023-02-17,2023-02-21,,2.0,3.0,0.4477030894006358,0.4908006414237876
+246,6.0,240.0,7.0,Casey,Principal Engineer,2.0,Task 246: Analyze Monitoring for Data Migration,False,Documentation,1,Not Started,2023-02-17,2023-02-21,,2.0,4.0,0.38662805570335956,0.3727274845869029
+247,6.0,218.0,2.0,Jane,Associate Engineer,0.5,Task 247: Design Integration for Data Migration,False,Documentation,1,Not Started,2023-02-15,2023-03-03,,12.0,4.0,0.08297467225009404,0.08154634907272203
+248,6.0,246.0,5.0,Taylor,Lead Engineer,1.5,Task 248: Migrate Content Management for Data Migration,False,Documentation,1,Not Started,2023-02-20,2023-02-23,,3.0,4.0,0.30072890835429555,0.3152392212521529
+249,7.0,,3.0,Alex,Professional Engineer,1.0,Task 249: Optimize Analytics for Building Observability,False,Design,1,Not Started,2023-02-21,2023-03-02,,7.0,4.0,0.1411353930700882,0.14264022276522936
+250,7.0,,1.0,John,Associate Engineer,0.5,Task 250: Design Payment for Building Observability,False,Design,1,Not Started,2023-02-21,2023-03-08,,11.0,4.0,0.09044111646912993,0.09442074152644521
+251,7.0,249.0,4.0,Sam,Professional Engineer,1.0,Task 251: Debug Library for Building Observability,False,Design,1,Not Started,2023-02-24,2023-03-06,,6.0,4.0,0.15066879871289005,0.14554200011667467
+252,7.0,249.0,4.0,Sam,Professional Engineer,1.0,Task 252: Refactor Cache for Building Observability,False,Design,1,Not Started,2023-02-27,2023-03-06,,5.0,4.0,0.17988526588928244,0.1707373811668855
+253,7.0,250.0,3.0,Alex,Professional Engineer,1.0,Task 253: Deploy Logging for Building Observability,False,Design,1,Not Started,2023-02-28,2023-03-07,,5.0,4.0,0.18582255762847152,0.19269229168348653
+254,7.0,,1.0,John,Associate Engineer,0.5,Task 254: Design Cache for Building Observability,False,Design,1,Not Started,2023-02-21,2023-03-09,,12.0,4.0,0.0790064365172209,0.08408800315077172
+255,7.0,,3.0,Alex,Professional Engineer,1.0,Task 255: Migrate UI for Building Observability,False,Design,1,Not Started,2023-02-21,2023-02-27,,4.0,4.0,0.20765557870752402,0.2135403074930861
+256,7.0,255.0,1.0,John,Associate Engineer,0.5,Task 256: Deploy Dashboard for Building Observability,False,Design,1,Not Started,2023-02-27,2023-03-14,,11.0,4.0,0.08612901494568717,0.09013870364202096
+257,7.0,,1.0,John,Associate Engineer,0.5,Task 257: Configure Framework for Building Observability,False,Design,1,Not Started,2023-02-21,2023-03-09,,12.0,4.0,0.08232616589161976,0.07639799911083275
+258,7.0,252.0,1.0,John,Associate Engineer,0.5,Task 258: Test User Management for Building Observability,False,Design,1,Not Started,2023-02-28,2023-03-15,,11.0,4.0,0.08709107124389463,0.0943527141337763
+259,7.0,,2.0,Jane,Associate Engineer,0.5,Task 259: Refactor Reporting for Building Observability,False,Design,1,Not Started,2023-02-21,2023-03-08,,11.0,4.0,0.08897478993729742,0.09149828337685183
+260,7.0,,1.0,John,Associate Engineer,0.5,Task 260: Configure Service for Building Observability,False,Design,1,Not Started,2023-02-21,2023-03-10,,13.0,4.0,0.07205562180532556,0.06533749799565182
+261,7.0,259.0,1.0,John,Associate Engineer,0.5,Task 261: Prototype Content Management for Building Observability,False,Design,1,Not Started,2023-02-22,2023-03-07,,9.0,4.0,0.10308158389203143,0.10654956882167642
+262,7.0,260.0,1.0,John,Associate Engineer,0.5,Task 262: Research Framework for Building Observability,False,Design,1,Not Started,2023-02-22,2023-03-09,,11.0,4.0,0.08443372778454575,0.09021819325943892
+263,7.0,262.0,3.0,Alex,Professional Engineer,1.0,Task 263: Test Search for Building Observability,False,Design,1,Not Started,2023-02-23,2023-03-03,,6.0,4.0,0.14475775591657958,0.13465452286474383
+264,7.0,259.0,1.0,John,Associate Engineer,0.5,Task 264: Implement Database for Building Observability,False,Design,1,Not Started,2023-02-23,2023-03-10,,11.0,4.0,0.08770065218925727,0.08547657579955474
+265,7.0,259.0,4.0,Sam,Professional Engineer,1.0,Task 265: Test Security for Building Observability,False,Design,1,Not Started,2023-02-28,2023-03-07,,5.0,4.0,0.18464100142324588,0.20066428494020744
+266,7.0,,3.0,Alex,Professional Engineer,1.0,Task 266: Configure Notification for Building Observability,False,Design,1,Not Started,2023-02-21,2023-02-27,,4.0,4.0,0.2038926018314383,0.21038798161530264
+267,7.0,250.0,1.0,John,Associate Engineer,0.5,Task 267: Deploy Database for Building Observability,False,Design,1,Not Started,2023-02-22,2023-03-14,,14.0,4.0,0.07023143249472556,0.07095683274711082
+268,7.0,264.0,4.0,Sam,Professional Engineer,1.0,Task 268: Configure Monitoring for Building Observability,False,Design,1,Not Started,2023-02-22,2023-03-03,,7.0,4.0,0.14117083033218408,0.14744425653331827
+269,7.0,265.0,3.0,Alex,Professional Engineer,1.0,Task 269: Design Security for Building Observability,False,Design,1,Not Started,2023-02-28,2023-03-06,,4.0,4.0,0.20842355437627577,0.1882957831633562
+270,7.0,267.0,1.0,John,Associate Engineer,0.5,Task 270: Optimize Analytics for Building Observability,False,Design,1,Not Started,2023-02-27,2023-03-13,,10.0,4.0,0.09821586946316001,0.10626511894804293
+271,7.0,268.0,1.0,John,Associate Engineer,0.5,Task 271: Implement API for Building Observability,False,Design,1,Not Started,2023-02-22,2023-03-07,,9.0,4.0,0.10213170955606539,0.10262981409914604
+272,7.0,,3.0,Alex,Professional Engineer,1.0,Task 272: Research Integration for Building Observability,False,Design,1,Not Started,2023-02-21,2023-03-01,,6.0,4.0,0.15686781826194557,0.1606257701456932
+273,7.0,249.0,3.0,Alex,Professional Engineer,1.0,Task 273: Optimize Workflow for Building Observability,False,Design,1,Not Started,2023-02-24,2023-03-03,,5.0,4.0,0.19706500734992977,0.18789457685453664
+274,7.0,266.0,2.0,Jane,Associate Engineer,0.5,Task 274: Analyze Service for Building Observability,False,Design,1,Not Started,2023-02-27,2023-03-16,,13.0,4.0,0.07276567353350524,0.07944989620223947
+275,7.0,272.0,1.0,John,Associate Engineer,0.5,Task 275: Implement Cache for Building Observability,False,Design,1,Not Started,2023-02-27,2023-03-14,,11.0,4.0,0.08977507638567891,0.09857721795812681
+276,7.0,,4.0,Sam,Professional Engineer,1.0,Task 276: Prototype Library for Building Observability,False,Design,1,Not Started,2023-02-21,2023-03-01,,6.0,4.0,0.15581000768391956,0.16154511309965994
+277,7.0,,4.0,Sam,Professional Engineer,1.0,Task 277: Debug Framework for Building Observability,False,Design,1,Not Started,2023-02-21,2023-02-28,,5.0,4.0,0.19935069714220746,0.2054801617161627
+278,7.0,259.0,4.0,Sam,Professional Engineer,1.0,Task 278: Test Notification for Building Observability,False,Design,1,Not Started,2023-02-22,2023-03-02,,6.0,4.0,0.14654503537989766,0.1430063837533991
+279,7.0,276.0,3.0,Alex,Professional Engineer,1.0,Task 279: Design Service for Building Observability,False,Design,1,Not Started,2023-02-28,2023-03-07,,5.0,4.0,0.17332035700923237,0.17806060206435814
+280,7.0,261.0,4.0,Sam,Professional Engineer,1.0,Task 280: Prototype Framework for Building Observability,False,Design,1,Not Started,2023-02-23,2023-03-03,,6.0,4.0,0.14578802857540613,0.15585701856628303
+281,7.0,259.0,2.0,Jane,Associate Engineer,0.5,Task 281: Design Analytics for Building Observability,False,Design,1,Not Started,2023-02-24,2023-03-13,,11.0,4.0,0.08980498197828621,0.09623430587639942
+282,7.0,,2.0,Jane,Associate Engineer,0.5,Task 282: Refactor Security for Building Observability,False,Design,1,Not Started,2023-02-21,2023-03-10,,13.0,4.0,0.07333766424147554,0.07375069002185566
+283,7.0,265.0,2.0,Jane,Associate Engineer,0.5,Task 283: Document Component for Building Observability,False,Design,1,Not Started,2023-02-22,2023-03-10,,12.0,4.0,0.07804182739853557,0.08430504240011484
+284,7.0,280.0,1.0,John,Associate Engineer,0.5,Task 284: Optimize Dashboard for Building Observability,False,Design,1,Not Started,2023-02-28,2023-03-15,,11.0,4.0,0.08664251006758457,0.07878510826457773
+285,7.0,,3.0,Alex,Professional Engineer,1.0,Task 285: Deploy Library for Building Observability,False,Design,1,Not Started,2023-02-21,2023-03-01,,6.0,4.0,0.14520436419479557,0.15756371854654824
+286,7.0,277.0,4.0,Sam,Professional Engineer,1.0,Task 286: Deploy Framework for Building Observability,False,Design,1,Not Started,2023-02-28,2023-03-07,,5.0,4.0,0.17944569048335884,0.16268193796657726
+287,7.0,253.0,1.0,John,Associate Engineer,0.5,Task 287: Review Monitoring for Building Observability,False,Design,1,Not Started,2023-02-24,2023-03-16,,14.0,4.0,0.07054803333171772,0.06641614952471618
+288,7.0,272.0,4.0,Sam,Professional Engineer,1.0,Task 288: Prototype Framework for Building Observability,False,Design,-7,Not Started,2023-02-23,2023-02-24,,1.0,4.0,0.19265781288928052,0.20085391550745268
+289,8.0,,4.0,Sam,Professional Engineer,1.0,Task 289: Optimize Search for Planning Effective support and alerts,False,Design,1,Completed,2023-01-30,2023-02-06,2023-01-31,5.0,4.0,0.16788072142765853,0.15367591359849417
+290,8.0,,4.0,Sam,Professional Engineer,1.0,Task 290: Configure Payment for Planning Effective support and alerts,False,Design,1,Completed,2023-01-30,2023-02-06,2023-02-02,5.0,4.0,0.17947707397366353,0.18187115168327006
+291,8.0,289.0,3.0,Alex,Professional Engineer,1.0,Task 291: Implement Monitoring for Planning Effective support and alerts,False,Design,2,Completed,2023-02-01,2023-02-10,2023-02-08,7.0,3.0,0.28555039636017937,0.2878669200103763
+292,8.0,,3.0,Alex,Professional Engineer,1.0,Task 292: Design Analytics for Planning Effective support and alerts,False,Design,1,Completed,2023-01-30,2023-02-06,2023-02-06,5.0,4.0,0.19289264851646246,0.17900247182151222
+293,8.0,292.0,2.0,Jane,Associate Engineer,0.5,Task 293: Optimize Analytics for Planning Effective support and alerts,False,Design,3,In Progress,2023-02-07,2023-03-22,,31.0,4.0,0.095345724953301,0.09536084395613686
+294,8.0,291.0,3.0,Alex,Professional Engineer,1.0,Task 294: Debug Cache for Planning Effective support and alerts,False,Design,1,Completed,2023-02-09,2023-02-15,2023-02-14,4.0,4.0,0.20820263292051971,0.18961831733044474
+295,8.0,,1.0,John,Associate Engineer,0.5,Task 295: Deploy Library for Planning Effective support and alerts,False,Design,1,Completed,2023-01-30,2023-02-01,2023-01-31,2.0,1.0,0.44642880087893405,0.40857326772289004
+296,8.0,294.0,3.0,Alex,Professional Engineer,1.0,Task 296: Debug Framework for Planning Effective support and alerts,False,Design,1,Not Started,2023-02-15,2023-02-22,,5.0,4.0,0.19383039573558095,0.21146347235110527
+297,8.0,291.0,2.0,Jane,Associate Engineer,0.5,Task 297: Validate Security for Planning Effective support and alerts,False,Design,1,In Progress,2023-02-09,2023-02-24,,11.0,4.0,0.08388460672581358,0.08847401603733135
+298,8.0,290.0,4.0,Sam,Professional Engineer,1.0,Task 298: Review Reporting for Planning Effective support and alerts,False,Design,1,In Progress,2023-02-03,2023-02-14,,7.0,4.0,0.14207379612616156,0.13563293822178085
+299,8.0,,3.0,Alex,Professional Engineer,1.0,Task 299: Deploy Content Management for Planning Effective support and alerts,False,Design,1,Completed,2023-01-30,2023-02-03,2023-01-31,4.0,4.0,0.20948101149155582,0.20908733198786866
+300,8.0,289.0,4.0,Sam,Professional Engineer,1.0,Task 300: Refactor Framework for Planning Effective support and alerts,False,Design,1,Completed,2023-02-01,2023-02-08,2023-02-02,5.0,4.0,0.17871264074653384,0.17426008664411732
+301,8.0,296.0,2.0,Jane,Associate Engineer,0.5,Task 301: Document Service for Planning Effective support and alerts,False,Design,1,In Progress,2023-02-06,2023-02-20,,10.0,4.0,0.09312351676302064,0.08540719260676595
+302,8.0,301.0,2.0,Jane,Associate Engineer,0.5,Task 302: Design Analytics for Planning Effective support and alerts,False,Design,1,Completed,2023-02-06,2023-02-22,2023-02-07,12.0,4.0,0.08033828182467766,0.07626432403946262
+303,8.0,,3.0,Alex,Professional Engineer,1.0,Task 303: Configure Integration for Planning Effective support and alerts,False,Design,1,Completed,2023-01-30,2023-02-07,2023-02-07,6.0,4.0,0.14574266067712038,0.1356637093305985
+304,8.0,302.0,2.0,Jane,Associate Engineer,0.5,Task 304: Analyze Dashboard for Planning Effective support and alerts,False,Design,1,Completed,2023-02-08,2023-02-22,2023-02-16,10.0,4.0,0.09743615986545778,0.09069897343418228
+305,8.0,300.0,4.0,Sam,Professional Engineer,1.0,Task 305: Deploy Workflow for Planning Effective support and alerts,False,Design,1,Completed,2023-02-03,2023-02-13,2023-02-03,6.0,4.0,0.16216747600770753,0.1494065470852448
+306,8.0,303.0,4.0,Sam,Professional Engineer,1.0,Task 306: Document Reporting for Planning Effective support and alerts,False,Design,1,Not Started,2023-02-08,2023-02-14,,4.0,4.0,0.20600721591397167,0.20373025379557028
+307,8.0,,3.0,Alex,Professional Engineer,1.0,Task 307: Research Logging for Planning Effective support and alerts,False,Design,1,Completed,2023-01-30,2023-02-06,2023-01-30,5.0,4.0,0.193294254384068,0.17791697793879094
+308,8.0,307.0,3.0,Alex,Professional Engineer,1.0,Task 308: Optimize Monitoring for Planning Effective support and alerts,False,Design,1,Completed,2023-01-31,2023-02-08,2023-02-07,6.0,4.0,0.1531174248469514,0.15155083995912855
+309,8.0,302.0,4.0,Sam,Professional Engineer,1.0,Task 309: Test Module for Planning Effective support and alerts,False,Design,1,In Progress,2023-02-08,2023-02-15,,5.0,4.0,0.1758708593887321,0.16191701662992874
+310,8.0,304.0,3.0,Alex,Professional Engineer,1.0,Task 310: Prototype Security for Planning Effective support and alerts,False,Design,1,Not Started,2023-02-17,2023-02-27,,6.0,4.0,0.14627331893722711,0.1478595011147538
+311,8.0,294.0,1.0,John,Associate Engineer,0.5,Task 311: Review Monitoring for Planning Effective support and alerts,False,Design,1,Not Started,2023-02-15,2023-03-02,,11.0,4.0,0.09089235943504818,0.09606302078745474
+312,8.0,296.0,4.0,Sam,Professional Engineer,1.0,Task 312: Prototype Monitoring for Planning Effective support and alerts,False,Design,1,In Progress,2023-02-03,2023-02-14,,7.0,4.0,0.1408638430418768,0.13843563408108223
+313,8.0,301.0,1.0,John,Associate Engineer,0.5,Task 313: Migrate Security for Planning Effective support and alerts,False,Design,1,Completed,2023-01-31,2023-02-06,2023-01-31,4.0,2.0,0.2452359459631312,0.24815604618701884
+314,8.0,,4.0,Sam,Professional Engineer,1.0,Task 314: Refactor Service for Planning Effective support and alerts,False,Design,1,Completed,2023-01-30,2023-02-06,2023-02-02,5.0,4.0,0.18003723015246778,0.1681397550989635
+315,8.0,,3.0,Alex,Professional Engineer,1.0,Task 315: Prototype Content Management for Planning Effective support and alerts,False,Design,1,Completed,2023-01-30,2023-02-07,2023-02-02,6.0,4.0,0.15186512216716114,0.14484649220035947
+316,8.0,298.0,2.0,Jane,Associate Engineer,0.5,Task 316: Validate Logging for Planning Effective support and alerts,False,Design,1,Completed,2023-02-03,2023-02-22,2023-02-09,13.0,4.0,0.07510771872262917,0.07010866013527803
+317,8.0,289.0,4.0,Sam,Professional Engineer,1.0,Task 317: Validate Database for Planning Effective support and alerts,False,Design,1,Completed,2023-02-01,2023-02-08,2023-02-01,5.0,4.0,0.16947716378407668,0.16894267734586083
+318,8.0,293.0,3.0,Alex,Professional Engineer,1.0,Task 318: Migrate Workflow for Planning Effective support and alerts,False,Design,1,Completed,2023-02-02,2023-02-10,2023-02-10,6.0,4.0,0.1576189816452232,0.149630538572037
+319,8.0,,1.0,John,Associate Engineer,0.5,Task 319: Document Framework for Planning Effective support and alerts,False,Design,1,Completed,2023-01-30,2023-02-03,2023-02-01,4.0,2.0,0.22462221930505763,0.2298634999032015
+320,8.0,309.0,1.0,John,Associate Engineer,0.5,Task 320: Research Notification for Planning Effective support and alerts,False,Design,1,In Progress,2023-01-31,2023-02-17,,13.0,4.0,0.07474213339882366,0.06736908158461284
+321,8.0,320.0,1.0,John,Associate Engineer,0.5,Task 321: Configure Reporting for Planning Effective support and alerts,False,Design,1,Completed,2023-02-03,2023-02-21,2023-02-21,12.0,4.0,0.08162760253590694,0.08358980256385817
+322,8.0,,2.0,Jane,Associate Engineer,0.5,Task 322: Review Cache for Planning Effective support and alerts,False,Design,1,In Progress,2023-01-30,2023-02-10,,9.0,4.0,0.100176940869793,0.09897928389776471
+323,8.0,315.0,3.0,Alex,Professional Engineer,1.0,Task 323: Test User Management for Planning Effective support and alerts,False,Design,1,In Progress,2023-02-03,2023-02-10,,5.0,4.0,0.17014313546630203,0.18115259550455032
+324,8.0,322.0,3.0,Alex,Professional Engineer,1.0,Task 324: Migrate Analytics for Planning Effective support and alerts,False,Design,1,Not Started,2023-02-06,2023-02-14,,6.0,4.0,0.14952871301047854,0.1441655713075391
+325,8.0,,4.0,Sam,Professional Engineer,1.0,Task 325: Implement Payment for Planning Effective support and alerts,False,Design,1,Completed,2023-01-30,2023-02-03,2023-01-31,4.0,4.0,0.2063095245411281,0.19396608711451574
+326,8.0,290.0,3.0,Alex,Professional Engineer,1.0,Task 326: Refactor Database for Planning Effective support and alerts,False,Design,1,Completed,2023-02-03,2023-02-13,2023-02-07,6.0,4.0,0.15243460899233985,0.14933224710317958
+327,8.0,,2.0,Jane,Associate Engineer,0.5,Task 327: Deploy Authentication for Planning Effective support and alerts,False,Design,1,Not Started,2023-01-30,2023-02-15,,12.0,4.0,0.08020068530530186,0.08332783461988087
+328,8.0,311.0,3.0,Alex,Professional Engineer,1.0,Task 328: Migrate Library for Planning Effective support and alerts,False,Design,1,Completed,2023-02-03,2023-02-09,2023-02-06,4.0,4.0,0.20774341598385235,0.21945907973612044
